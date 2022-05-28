@@ -1,0 +1,52 @@
+body{
+    background: url("../img/duck.jpg");
+}
+
+div{
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 15px;
+}
+
+span{
+    vertical-align: middle;
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 15px;
+}
+
+/*去掉超链接的下划线样式*/
+a:link,a:hover,a:active,a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #E94033;
+}
+
+a:active{
+    color: orange;
+}
+
+/*文章标题*/
+#title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#rootPanel{
+    background: rgba(255,255,255,0.85);
+    margin-top: 10px;
+}
+
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#context{
+    text-align: left;
+}

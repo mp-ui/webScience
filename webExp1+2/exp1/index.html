@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Prince的个人主页</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--引入css-->
+    <link rel="stylesheet" href="./css/index.css">
+    <!--引入js-->
+    <script src="./js/index.js"></script>
+
+    <link rel="Shortcut Icon" href="./img/icon.png" type="image/x-icon" />
+
+    <embed src="./music/bgm.mp3" hidden="true" autostart="true" loop="true">
+</head>
+<body>
+    <div id="root_parent">  <!--给背景架一层遮罩-->
+        <div class="container" id="root">
+            <div class="row row_mar">
+                <div id="title" class="col" style="font-size: 50px;">欢迎访问我的个人主页！</div>
+            </div>
+
+            <div class="row row_mar" id="nav">
+                <div class="col-2">
+                    <img src="./img/icon.png" alt="icon" width="30px"/>
+                    <span style="font-size: 20px;vertical-align: middle;font-family: 'Segoe UI Black',serif"><a href="#">Prince</a></span>
+                </div>
+
+                <div class="col-1">
+                    <span><a href="#">首页</a></span>
+                </div>
+
+                <div class="col-1">
+                    <span><a href="#">博客</a></span>
+                </div>
+
+                <div class="col-1">
+                    <span><a href="#">分类</a></span>
+                </div>
+
+                <div class="col-1">
+                    <span><a href="#">下载</a></span>
+                </div>
+
+                <div class="col-1">
+                    <span><a href="#">论坛</a></span>
+                </div>
+
+                <div class="col-1">
+                    <span><a href="#">直播</a></span>
+                </div>
+
+                <div class="col-1">
+                    <span><a href="#">问答</a></span>
+                </div>
+
+                <div class="col-3">
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="搜索文章" class="form-control" />
+                        <div class="input-group-append">
+                            <button class="btn btn-primary btn-outline-secondary" type="button" style="color:white">Search</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row row_mar">
+                <div class="col">
+                    <table style="width: 100%">
+                        <tr style="height: 30px">
+                            <td><div><a href="#">Python</a></div></td>
+                            <td><div><a href="#">Java</a></div></td>
+                            <td><div><a href="#">架构</a></div></td>
+                            <td><div><a href="#">人工智能</a></div></td>
+                            <td><div><a href="#">移动开发</a></div></td>
+                            <td><div><a href="#">程序人生</a></div></td>
+                            <td><div><a href="#">计算机基础</a></div></td>
+                            <td><div><a href="#">物联网</a></div></td>
+                            <td><div><a href="#">前端</a></div></td>
+                            <td><div><a href="#">区块链</a></div></td>
+                        </tr>
+                        <tr style="height: 30px">
+                            <td><div><a href="#">游戏开发</a></div></td>
+                            <td><div><a href="#">运维</a></div></td>
+                            <td><div><a href="#">5G</a></div></td>
+                            <td><div><a href="#">音视频开发</a></div></td>
+                            <td><div><a href="#">结算服务</a></div></td>
+                            <td><div><a href="#">信息安全</a></div></td>
+                            <td><div><a href="#">能力认证</a></div></td>
+                            <td><div><a href="#">数据库</a></div></td>
+                            <td><div><a href="#">云计算</a></div></td>
+                            <td><div><a href="#">更多</a></div></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+
+            </div>
+
+            <!--精选头条-->
+            <div class="row row_mar">
+                <div class="col">
+                    <div style="float: left">
+                       <img class="small_title_img"  src="img/1.png"/>
+                        <label class="small_title">精选头条</label>
+                    </div>
+                </div>
+            </div>
+
+            <!--精选头条-->
+            <div class="row row_mar">
+                <div class="col col_pad">
+                    <a href="#">
+                        <div><img class="article_img" src="./img/20210430093014.jpg" /></div>
+                        <div class="article_title">RISC-V 能打 50 年！不必期待 RISC-VI —— 对话 RISC-V CTO Mark Himelstein</div>
+                    </a>
+                    <div class="article_tags">
+                        <a class="article_tag" href="#">RISC-V</a>
+                        <a class="article_tag" href="#">操作系统</a>
+                        <a class="article_tag" href="#">RISC-VI</a>
+                    </div>
+                    <a href="#">
+                        <div class="article_author">
+                            <img class="article_author_img" src="img/3_programmer_editor.jpg" />
+                            <span class="article_author_name">程序员编辑部</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col_pad">
+                    <div class="row row_mar2">
+                        <div class="col-3">
+                            <a href="#"><img class="article_img img_limit_height_84" src="./img/20210430093849.png"></a>
+                        </div>
+                        <div class="col-9">
+                            <div class="article_title2"><a href="#">JavaScript 开发者数量暴涨、C# 超越 PHP，揭晓全球开发最新趋势！</a></div>
+                            <a href="#">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="img/ab51a1accd2743fbac2c1a6c09ba2b45.png" />
+                                    <span class="article_author_name">CSDN资讯</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row_mar2">
+                        <div class="col-3">
+                            <a href="#"><img class="article_img img_limit_height_84" src="./img/2021-05-01%2001%2005%2000.png"></a>
+                        </div>
+                        <div class="col-9">
+                            <div class="article_title2"><a href="#">Scrapy爬虫框架的安装与基本使用</a></div>
+                            <a href="#">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="img/3_qq_45538657_1566049030.jpg" />
+                                    <span class="article_author_name">Quantum_Wu</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row_mar2">
+                        <div class="col-3">
+                            <a href="#"><img class="article_img img_limit_height_84" src="./img/20210429093352.jpg"></a>
+                        </div>
+                        <div class="col-9">
+                            <div class="article_title2"><a href="#">到底是微信窃取隐私，还是输入法光明正大收集用户信息？</a></div>
+                            <a href="#">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="img/ab51a1accd2743fbac2c1a6c09ba2b45.png" />
+                                    <span class="article_author_name">CSDN资讯</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col_pad">
+                    <div class="row row_mar2">
+                        <div class="col-3">
+                            <a href="#"><img class="article_img img_limit_height_84" src="./img/20210430093849.png"></a>
+                        </div>
+                        <div class="col-9">
+                            <div class="article_title2"><a href="#">JavaScript 开发者数量暴涨、C# 超越 PHP，揭晓全球开发最新趋势！</a></div>
+                            <a href="#">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="img/1_weixin_48557496_1607258749.jpg" />
+                                    <span class="article_author_name">在下是小白</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row_mar2">
+                        <div class="col-3">
+                            <a href="#"><img class="article_img img_limit_height_84" src="./img/20210430093849.png"></a>
+                        </div>
+                        <div class="col-9">
+                            <div class="article_title2"><a href="#">JavaScript 开发者数量暴涨、C# 超越 PHP，揭晓全球开发最新趋势！</a></div>
+                            <a href="#">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="img/1_weixin_48557496_1607258749.jpg" />
+                                    <span class="article_author_name">在下是小白</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row_mar2">
+                        <div class="col-3">
+                            <a href="#"><img class="article_img img_limit_height_84" src="./img/20210430093849.png"></a>
+                        </div>
+                        <div class="col-9">
+                            <div class="article_title2"><a href="#">JavaScript 开发者数量暴涨、C# 超越 PHP，揭晓全球开发最新趋势！</a></div>
+                            <a href="#">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="img/3_qq_45538657_1566049030.jpg" />
+                                    <span class="article_author_name">Quantum_Wu</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!--Java-->
+            <div class="row row_mar">
+                <div class="col">
+                    <div style="float: left">
+                        <img class="small_title_img" src="img/java.png"/>
+                        <label class="small_title">Java</label>
+                    </div>
+                </div>
+            </div>
+
+            <!--Java-->
+            <div class="row_mar row">
+                <!--1-->
+                <div class="col col_pad">
+                    <table style="width: 100%">
+                        <!--首图-->
+                        <tr>
+                            <td style="width: 45%">
+                                <a href="#">
+                                    <img class="article_img img_limit_height_90" src="img/20210420094904.jpg" />
+                                </a>
+                            </td>
+                            <td style="width: 55%;vertical-align: top;padding-left: 5px">
+                                <div class="article_title2"><a href="#">面试官：你知道Dubbo怎么做优雅上下线的吗？你：优雅上下线是啥？</a></div>
+                                <div class="article_description">优雅上下线是啥？</div>
+                            </td>
+                        </tr>
+                        <!--无序列表-->
+                        <tr>
+                            <td colspan="2">
+                                <ul style="padding-left: 20px">
+                                    <a href="#"><li><div class="article_title">GC复制存活对象，它内存地址变了么？</div></li></a>
+                                    <a href="#"><li><div class="article_title">HashMap面试，看这一篇就够了</div></li></a>
+                                    <a href="#"><li><div class="article_title">构建Java镜像的10个最佳实践</div></li></a>
+                                    <a href="#"><li><div class="article_title">Hadoop 使用IntelliJ IDEA 进行远程调试代码</div></li></a>
+                                    <a href="#"><li><div class="article_title">SpringBoot项目启动后网页显示【Please sign in】的解决办法</div></li></a>
+                                    <a href="#"><li><div class="article_title">Java JSch 远程执行 Shell 命令</div></li></a>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--2-->
+                <div class="col col_pad">
+                    <table style="width: 100%">
+                        <!--首图-->
+                        <tr>
+                            <td style="width: 45%">
+                                <a href="#">
+                                    <img class="article_img img_limit_height_90" src="img/20210408093511.png" />
+                                </a>
+                            </td>
+                            <td style="width: 55%;vertical-align: top;padding-left: 5px">
+                                <div class="article_title2"><a href="#">Android 启动优化</a></div>
+                                <div class="article_description">深入理解布局优化</div>
+                            </td>
+                        </tr>
+                        <!--无序列表-->
+                        <tr>
+                            <td colspan="2">
+                                <ul style="padding-left: 20px">
+                                    <a href="#"><li><div class="article_title">JDK 16 对 ZGC 的增强</div></li></a>
+                                    <a href="#"><li><div class="article_title">一段Java代码是如何执行的？</div></li></a>
+                                    <a href="#"><li><div class="article_title">JDK9对String字符串的新一轮优化，不可不知</div></li></a>
+                                    <a href="#"><li><div class="article_title">Java基础学习总结（174）——Java 开发者应该会的流程图绘制技巧</div></li></a>
+                                    <a href="#"><li><div class="article_title">Java虚拟机栈和内存模型</div></li></a>
+                                    <a href="#"><li><div class="article_title">java学生宿舍管理系统，来了就点个赞再走呗，即将毕业的兄弟有福了！</div></li></a>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--3-->
+                <div class="col col_pad">
+                    <table style="width: 100%">
+                        <!--首图-->
+                        <tr>
+                            <td style="width: 45%">
+                                <a href="#">
+                                    <img class="article_img img_limit_height_90" src="img/20210408091221.jpg" />
+                                </a>
+                            </td>
+                            <td style="width: 55%;vertical-align: top;padding-left: 5px">
+                                <div class="article_title2"><a href="#">Spring Boot：如何解决跨域问题 ?</a></div>
+                                <div class="article_description">Spring Boot：如何解决跨域问题 ?</div>
+                            </td>
+                        </tr>
+                        <!--无序列表-->
+                        <tr>
+                            <td colspan="2">
+                                <ul style="padding-left: 20px">
+                                    <a href="#"><li><div class="article_title">这个疯子整理的十万字Java面试题汇总，终于拿下40W offer！（JDK源码+微服务合集+并发编程+性能优化合集+分布式中间件合集）</div></li></a>
+                                    <a href="#"><li><div class="article_title">我用三天时间开发了一款老少皆宜的国民级游戏，支持播放音乐，现开放完整源代码和注释（建议收藏）！！</div></li></a>
+                                    <a href="#"><li><div class="article_title">奉劝各位学弟学妹们，该打造你的技术影响力了！</div></li></a>
+                                    <a target="_blank" href="https://blog.csdn.net/qq_45538657/article/details/110851247?spm=1001.2014.3001.5501"><li><div class="article_title">Java: Swing + 网络编程 实现多人聊天室功能</div></li></a>
+                                    <a target="_blank" href="https://blog.csdn.net/qq_45538657/article/details/114375309"><li><div class="article_title">SpringBoot插件之Develop Tools: DevTools, Lombok, Spring Configuration Proccessor</div></li></a>
+                                    <a target="_blank" href="https://blog.csdn.net/weixin_48557496"><li><div class="article_title">[推荐]在下是小白的个人博客</div></li></a>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="row row_mar">
+                <div class="col">
+                    <div style="float: left">
+                        <img class="small_title_img"  src="img/friend.png"/>
+                        <label class="small_title">友情链接</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row_mar">
+                <div class="col">
+                    <div style="text-align: left">
+                        <a target="_blank" href="https://blog.csdn.net/qq_45538657?spm=1001.2014.3001.5509" type="button" class="btn btn-outline-dark">Wyt的个人博客</a>
+                        <a target="_blank" href="https://blog.csdn.net/weixin_48557496" type="button" class="btn btn-outline-dark">Lzk的个人博客</a>
+                        <a target="_blank" href="https://blog.csdn.net/weixin_45706341" type="button" class="btn btn-outline-dark">Dzh的个人博客</a>
+                        <a target="_blank" href="http://120.79.62.112:8080/" type="button" class="btn btn-outline-dark">Prince的个人主页</a>
+                        <a target="_blank" href="https://v4.bootcss.com/" type="button" class="btn btn-outline-dark">Bootstrap官方网站</a>
+                        <a target="_blank" href="https://www.csdn.net/?spm=1001.2014.3001.5359" type="button" class="btn btn-outline-dark">CSDN</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_mar row" id="bottom_info">
+                <div class="col">
+                    <div style="padding-top: 10px">
+                        <a href="#" style="margin-right: 30px">关于我们</a>
+                        <a href="#">联系我们</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

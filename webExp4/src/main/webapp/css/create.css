@@ -1,0 +1,22 @@
+body{
+    background: url("../img/duck.jpg");
+}
+
+.container{
+    background: rgba(255,255,255,0.85);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+label{
+    width: 100%;
+}
+
+#title{
+    width: 60%;
+}
+
+#content{
+    width: 95%;
+    height: 800px;
+}

@@ -1,0 +1,176 @@
+body{
+    background: url("../img/duck.jpg");
+    /*background-size: cover;*/
+    /*height: 100%;*/
+}
+
+html{
+    /*height: 100%;  !*让html铺满整个网页，需要同时设置html和body的height*!*/
+}
+
+div{
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 15px;
+}
+
+span{
+    vertical-align: middle;
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 15px;
+}
+
+/*去掉超链接的下划线样式*/
+a:link,a:hover,a:active,a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #E94033;
+}
+
+a:active{
+    color: orange;
+}
+
+/*给背景图片加一层遮罩*/
+#root_parent{
+    background: rgba(0,0,0,0.5);
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*
+    TODO 如果设置html body root_parent的height都设置为100%，那么整个屏幕会有遮罩效果，
+    TODO 但是如果网页往下拉，就没有遮罩效果了
+    TODO 如果不加，那么遮罩效果可以显示在全部网页，但是如果网页内容很少，没有下拉，会出现一半有遮罩一半没有的情况
+     */
+}
+
+#root{
+    background: rgba(255,255,255,0.6);
+}
+
+
+.row_mar{
+    margin-bottom: 20px;
+}
+
+.row_mar2{
+    margin-bottom: 5px;
+}
+
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.col_pad{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#nav span{
+    font-size: 20px; /*导航栏的字体大一些*/
+}
+
+/*小标题前面的图片*/
+.small_title_img{
+    width: 30px;
+    height: 30px;
+}
+
+/*小标题*/
+.small_title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.article_img{
+    width: 100%;
+}
+
+.img_limit_height_90{
+    /*限制图片高度*/
+    height: 90px;
+}
+
+.img_limit_height_84{
+    /*限制图片高度*/
+    height: 84px;
+}
+
+/*文章标题（图片在上面）*/
+.article_title{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*文章标题2（图片在左侧）*/
+.article_title2{
+    text-align: left;
+    width: 100%;
+}
+
+/*文章描述*/
+.article_description{
+    font-size: 14px;
+    color: #6c757d;
+    text-align: left;
+    margin-top: 5px;
+}
+
+/*文章标签组*/
+.article_tags{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/*文章标签*/
+.article_tag:link,.article_tag:hover,.article_tag:active,.article_tag:visited{
+    border-radius: 2px;
+    color: black;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.article_tag:link{
+    background-color: rgb(233,241,250);
+}
+
+.article_tag:hover{
+    background-color: rgb(212,227,245);
+}
+
+.article_author{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.article_author_img{
+    border-radius: 50%;
+    width: 20px;
+}
+
+.article_author_name{
+    padding-left: 5px;
+}
+
+ul a li div{
+    width: 320px;
+    overflow: hidden;/*超出部分隐藏*/
+    white-space: nowrap;/*不换行*/
+    text-overflow:clip;/*超出部分文字以...显示*/
+}
+
+#bottom_info{
+    background: rgba(0,0,0,0.2);
+    height: 50px;
+    border-top:1px #6c757d solid;
+    margin-bottom: 0;
+}
